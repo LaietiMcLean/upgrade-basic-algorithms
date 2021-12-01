@@ -99,11 +99,6 @@ const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
  const number2 = 20;
  const number3 = 2;
 
-    // ejemplo
-    if(number1 === 10){
-        console.log('number1 es estrictamente igual a 10')
-    }
-
      if (number2 / number1 == 2) {
         console.log("number2 dividido entre number1 es igual a 2");
     }
@@ -127,6 +122,40 @@ const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
     if (number2 / 2 == number1 || number1 / 5 == number3) {
         console.log("number2 entre 2 es igual a number1 O number1 entre 5 es igual a number3");
     }
+
+//Iteración 6
+    //6.1
+    for (var i = 0; i < 10; i++) {
+        console.log(i);
+    }
+
+    //6.2
+    for (var i = 0; i < 10; i++) {
+        if (!(i % 2 === 0)){
+          continue;
+        }
+        console.log(i);
+    }
+
+    //6.3
+    var mensaje = 'Intentando dormir';
+    var mensaje2 = 'Dormido!';
+    for (i= 0; i <= 9; i++) {
+        if (i === 9) {
+            console.log(mensaje2);
+        } else {
+            console.log(mensaje);
+        }
+    }
+
+        
+
+
+
+
+
+
+
 
 
 
