@@ -64,9 +64,35 @@ var z = h + y;
     texto2 = 'x = ' + x;
     console.log(texto2);
 
+//Iteración 4
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+    //4.1
+    let name1 = avengers[0];
+    console.log(name1);
 
+    //4.2
+    avengers.unshift("IRONMAN");
+    console.log(avengers);
 
+    //4.3
+    alert(avengers.length);
 
+    //4.4
+    const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+    rickAndMortyCharacters.push("Morty", "Summer");
+    console.log(rickAndMortyCharacters[4]);
+
+    //4.5
+    const rickAndMortyCharacters2 = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];    
+    rickAndMortyCharacters2.pop();
+    console.log(rickAndMortyCharacters2);
+    console.log(rickAndMortyCharacters2[0]);
+    console.log(rickAndMortyCharacters2[4]);
+
+    //4.6
+    const rickAndMortyCharacters3 = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+    rickAndMortyCharacters3.splice(1, 1);
+    console.log(rickAndMortyCharacters3);
 
 
 
