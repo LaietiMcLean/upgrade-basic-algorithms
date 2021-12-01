@@ -94,6 +94,7 @@ const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
     rickAndMortyCharacters3.splice(1, 1);
     console.log(rickAndMortyCharacters3);
 
+ //Iteración 5   
 
 
 
