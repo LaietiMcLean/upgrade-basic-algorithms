@@ -37,3 +37,41 @@ var z = h + y;
         console.log(car1.finalPrice);
     car2.finalPrice = car2.basePrice + globalBasePrice;
         console.log(car2.finalPrice);
+
+//Iteración 3
+    //3.1
+    let result1 = 10 * 5;
+    alert(result1);
+
+    //3.2
+    let result2 = 10 / 2;
+    alert(result2);
+    //3.3
+    let result3 = 15 % 9;
+    alert(result3);
+
+    //3.4
+    var y = 10;
+    var z = 5;
+    var x = y + z;
+    texto = 'x = ' + x;
+    console.log(texto);
+
+    //3.5
+    var y = 10;
+    var z = 5;
+    var x = y * z;
+    texto2 = 'x = ' + x;
+    console.log(texto2);
+
+
+
+
+
+
+
+
+
+
+
+
